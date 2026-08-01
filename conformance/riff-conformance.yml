@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://riff.ai/
+note: >-
+  Compliance posture as published on the Riff marketing homepage. Riff states its
+  platform is "SOC 2, ISO 27001 aligned, GDPR compliant" with EU-based data storage.
+  "Aligned" is the provider's own wording (not an attested certification claim); no
+  public trust center, audit report, or certificate registry was found. No API surface
+  exists to derive cross-cutting API standards (OAuth2/OIDC/RFC 9457/etc.).
+standards:
+- id: soc2
+  conforms: true
+  status: aligned
+  evidence: 'Homepage Enterprise Security section: "SOC 2 ... aligned"'
+- id: iso-27001
+  conforms: true
+  status: aligned
+  evidence: 'Homepage Enterprise Security section: "ISO 27001 aligned"'
+- id: gdpr
+  conforms: true
+  status: compliant
+  evidence: 'Homepage Enterprise Security section: "GDPR compliant, EU-based data storage"'
